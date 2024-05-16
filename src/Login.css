@@ -1,0 +1,79 @@
+/* Estilo para a classe .headerfoto */
+.headerfoto {
+    padding: 20px; /* Adiciona preenchimento interno de 20px */
+    background-color: #f9f9f9; /* Define a cor de fundo como #f9f9f9 */
+    border-radius: 5px; /* Adiciona um raio de borda de 5px para cantos arredondados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra de 10px com transparência */
+}
+
+/* Estilo para a tag <header> */
+header {
+    font-size: 24px; /* Define o tamanho da fonte como 24px */
+    font-weight: bold; /* Define o peso da fonte como negrito */
+    margin-bottom: 20px; /* Adiciona margem na parte inferior de 20px */
+}
+
+/* Estilo para a tag <section> */
+section {
+    margin-bottom: 30px; /* Adiciona margem na parte inferior de 30px */
+}
+
+/* Estilo para a tag <h2> */
+h2 {
+    font-size: 20px; /* Define o tamanho da fonte como 20px */
+    margin-bottom: 10px; /* Adiciona margem na parte inferior de 10px */
+}
+
+/* Estilo para a tag <p> */
+p {
+    font-size: 16px; /* Define o tamanho da fonte como 16px */
+    line-height: 1.6; /* Define a altura da linha como 1.6 */
+    color: #333; /* Define a cor do texto como #333 */
+    margin-bottom: 10px; /* Adiciona margem na parte inferior de 10px */
+}
+
+/* Estilo para a tag <form> */
+form {
+    margin-top: 20px;  /* Adiciona margem na parte superior de 20px */
+    padding: 20px;  /* Adiciona preenchimento interno de 20px */
+    background-color: #f9f9f9; /* Define a cor de fundo como #f9f9f9 */
+    border-radius: 5px; /* Adiciona um raio de borda de 5px para cantos arredondados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra de 10px com transparência */
+}
+
+/* Estilo para a tag <label> */
+label {
+    display: block; /* Define o elemento como bloco para ocupar a largura total disponível */
+    font-weight: bold; /* Define o peso da fonte como negrito */
+    margin-bottom: 5px; /* Adiciona margem na parte inferior de 5px */
+    color: #333; /* Define a cor do texto como #333 */
+}
+
+/* Estilo para os inputs do tipo "text" e "email", e para textarea */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%; /* Define a largura como 100% */
+    padding: 10px; /* Adiciona preenchimento interno de 10px */
+    font-size: 16px; /* Define o tamanho da fonte como 16px */
+    border: 1px solid #ccc; /* Adiciona uma borda sólida de 1px na cor #ccc */
+    border-radius: 0; /* Removemos o border-radius para tornar as bordas quadradas */
+    margin-bottom: 10px; /* Adiciona margem na parte inferior de 10px */
+}
+
+/* Estilo para o botão */
+button {
+    padding: 10px 20px; /* Adiciona preenchimento interno de 10px no eixo vertical e 20px no eixo horizontal */
+    font-size: 16px; /* Define o tamanho da fonte como 16px */
+    border: none; /* Remove a borda */
+    border-radius: 0; /* Removemos o border-radius para tornar as bordas quadradas */
+    background-color: #007bff; /* Define a cor de fundo como #007bff */
+    color: #fff; /* Define a cor do texto como branco */
+    cursor: pointer; /* Altera o cursor para indicar que o elemento é clicável */
+    transition: background-color 0.3s; /* Adiciona uma transição suave na mudança de cor de fundo com duração de 0.3s */
+}
+
+/* Estilo para o estado de hover do botão */
+button:hover {
+    background-color: #0056b3; /* Altera a cor de fundo para #0056b3 quando o cursor está sobre o botão */
+}

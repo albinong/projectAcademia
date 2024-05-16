@@ -1,0 +1,48 @@
+/* Estilo para a seção com id "metodologia" */
+
+#metodologia {
+    padding: 20px; /* Adiciona preenchimento interno de 20px */
+    background-color: #f9f9f9; /* Define a cor de fundo como #f9f9f9 */
+    border-radius: 5px; /* Adiciona um raio de borda de 5px para cantos arredondados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra de 10px com transparência */
+}
+
+/* Estilo para a tag <h1> */
+h1 {
+    font-size: 24px; /* Define o tamanho da fonte como 24px */
+    font-weight: bold; /* Define o peso da fonte como negrito */
+    margin-bottom: 20px; /* Adiciona margem na parte inferior de 20px */
+}
+
+/* Estilo para a tag <h2> */
+h2 {
+    font-size: 20px; /* Define o tamanho da fonte como 20px */
+    margin-bottom: 10px; /* Adiciona margem na parte inferior de 10px */
+}
+
+/* Estilo para a tag <table> */
+table {
+    width: 100%; /* Define a largura como 100% */
+    border-collapse: collapse; /* Remove o espaçamento entre as células da tabela */
+    margin-bottom: 20px; /* Adiciona margem na parte inferior de 20px */
+}
+
+/* Estilo para os cabeçalhos e células da tabela */
+th, td {
+    padding: 8px; /* Adiciona preenchimento interno de 8px */
+    border-bottom: 1px solid #ddd;  /* Adiciona uma borda na parte inferior de 1px sólida na cor #ddd */
+    text-align: left; /* Alinha o texto à esquerda */
+}
+
+/* Estilo para os cabeçalhos da tabela */
+th {
+    background-color: #f2f2f2;  /* Define a cor de fundo como #f2f2f2 */
+}
+
+/* Estilo para a tag <p> */
+p {
+    font-size: 16px;  /* Define o tamanho da fonte como 16px */
+    line-height: 1.6; /* Define a altura da linha como 1.6 */
+    color: #333; /* Define a cor do texto como #333 */
+    margin-bottom: 20px; /* Adiciona margem na parte inferior de 20px */
+}

@@ -1,0 +1,80 @@
+/* Cursos.css */
+
+/* Estilo para o container principal */
+.cursos-css {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilo para o cabeçalho dos cursos */
+  .cursos-header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo para a lista de cursos */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Estilo para os itens da lista de cursos */
+  li {
+    margin-bottom: 10px;
+  }
+  
+  /* Estilo para as seções de área de estudo e localidade */
+  section {
+    margin-bottom: 30px;
+  }
+  
+  /* Estilo para os títulos das seções */
+  h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilo para os parágrafos */
+  p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 10px;
+  }
+
+  /* Estilo para o botão "SABER MAIS" */
+  #saberMais1, #saberMaisDois,
+  #saberMaisTres, #saberMaisQuatro,
+  #saberMaisCinco, #saberMaisSeis,
+  #saberMaisSete, #saberMaisOito,
+  #saberMaisNove, #saberMaisDez, 
+  #saberMaisOnze, #saberMaisDoze,
+  #saberMaisTreze, #saberMaisCatorze,
+  #saberMaisQuinze ,#saberMaisDezesseis,
+  #saberMaisDezessete, #saberMaisDezoito,
+  #saberMaisDezanove,#saberMaisVinte,
+  #saberMaisVinteum,#saberMaisVintedois,
+  #saberMaisVintetres,#saberMaisVintequatro,
+  #saberMaisVintecinco,#saberMaisVinteseis,
+  #saberMaisVintesete,#saberMaisVinteoito,
+  #saberMaisVintenove,#saberMaisTrinta{
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333; /* Cor do texto */
+    background-color: #f0f0f0; /* Cor de fundo */
+    border-radius: 5px; /* Borda arredondada */
+    box-shadow: 0px 0px 25px 0px;
+  }
+
+  /* Estilo para o botão de voltar */
+  .back-button {
+    position: fixed;
+    bottom: 20px; /* Defina a distância desejada do fundo da página */
+    right: 20px; /* Defina a distância desejada da borda esquerda da página */
+    background-color: rgb(194, 43, 43);
+    border-radius: 3px;
+    padding: 5px;
+  }

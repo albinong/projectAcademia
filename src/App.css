@@ -1,0 +1,244 @@
+ /* App.css */
+
+ /* Importa o conjunto de ícones do Font Awesome */
+ @import '~@fortawesome/fontawesome-free/css/all.css';
+
+ /* Define o box model para todos os elementos */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+ /* Estilos para o corpo da página */
+  body {
+    font-family: Arial, sans-serif;
+    background: #794545;
+    margin: 0;
+    padding: 10px;
+  }
+  
+  /* Estilos para o cabeçalho/título do blog */
+  .headerfoto {
+    text-align: center;
+    background: white;
+  }
+  
+  .headerfoto img {
+    max-width: 70%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Centraliza a imagem */
+  }
+  .headerfoto h1 {
+    font-size: 50px;
+  }
+  
+ /* Estilos para a barra de navegação superior */
+  .topnav {
+    overflow: hidden;
+    background-color: #b41616;
+    box-shadow: 1px 4px 10px 1px ;
+  }
+  
+ /* Estilos para os links da barra de navegação */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Altera a cor ao passar o mouse sobre os links */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+/* Estilos para as colunas desiguais que ficam uma ao lado da outra */
+/* Coluna esquerda */
+  .leftcolumn {   
+    float: left;
+    width: 75%;
+  }
+  
+ /* Coluna direita */
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: #f1f1f1;
+    padding-left: 20px;
+  }
+  
+/* Estilos para imagens simuladas */
+  .fakeimg {
+    background-color: #aaa;
+    width: 100%;
+  }
+  
+/* Adiciona um efeito de cartão para os artigos */
+  .card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+/* Limpa os floats após as colunas */
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Estilos para o rodapé */
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: #500d0d;
+    color: #ffffff;
+  }
+
+  /* Estilos para os ícones sociais */
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+
+  .social-icon {
+    margin: 10px;  /* Define a margem direita entre os ícones */
+    font-size: 1.5em;
+    cursor: pointer;
+  }
+  
+  .contacto {
+    flex: 1;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .localização {
+    flex: 1;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  /* Layout responsivo */
+    @media screen and (max-width: 800px) {
+    .social-icons {
+    flex-direction: column;
+  }
+
+  .contacto,
+  .localização {
+    margin: 10px;
+  }
+}
+
+/* Estilos para o efeito de cartão para os artigos */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Estilos para as imagens dentro do cartão */
+.card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 10px; /* Adiciona um espaço entre as imagens */
+  max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner pai */
+  max-height: 400px; /* Define a altura máxima para as imagens */
+}
+
+
+
+/* Estilos para o componente SobreNos */
+.sobre-nos-container {
+  background-color: white;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 1100px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sobre-nos-title {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.sobre-nos-text {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+/* Estilizando a lista e seus itens */
+.sobre-nos-container ul {
+  list-style-type: none; /* Remove os marcadores padrão da lista */
+  padding-left: 20px; /* Adiciona um recuo à esquerda para os itens da lista */
+}
+
+.sobre-nos-container ul li {
+  padding-left: 20px; /* Adiciona um recuo à esquerda para os itens da lista */
+  margin-bottom: 5px; /* Adiciona um espaço entre os itens */
+}
+
+/* Layout responsivo */
+@media screen and (max-width: 800px) {
+  .sobre-nos-container {
+    padding: 10px;
+    margin: 10px auto;
+  }
+  
+  .sobre-nos-title {
+    font-size: 24px;
+  }
+}
+
+
+/* Layout responsivo */
+@media screen and (max-width: 800px) {
+  .card {
+    flex-direction: column;
+  }
+}
+
+/* Reduz a margem para os elementos "contacto" e "localização" em telas menores */
+@media screen and (max-width: 600px) {
+  .card img {
+    margin-bottom: 5px; /* Reduz o espaço entre as imagens em telas menores */
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .contacto,
+  .localização {
+    margin: 5px;
+  }
+}
+  /* Layout responsivo - quando a tela tiver menos de 800px de largura, faça as duas colunas se empilharem umas sobre as outras em vez de ficarem próximas umas das outras */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }
+  
+  /* Layout responsivo - quando a tela tiver menos de 400px de largura, faz os links de navegação se empilharem em vez de ficarem próximos */
+  @media screen and (max-width: 400px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+  }
